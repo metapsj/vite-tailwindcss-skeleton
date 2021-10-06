@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/metapsj/vite-tailwindcss-skeleton/issues"
   },
-  "homepage": "https://github.com/metapsj/vite-tailwindcss-skeleton#readme"
+  "homepage": "https://github.com/metapsj/vite-tailwindcss-skeleton#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16",
+    "vite": "^2.6.3"
+  }
 }
