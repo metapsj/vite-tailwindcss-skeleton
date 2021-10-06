@@ -2,8 +2,4 @@
 
 a skeleton project using vite with tailwindcss
 
----
-
-# TODO:
-
----
+## TODO:
