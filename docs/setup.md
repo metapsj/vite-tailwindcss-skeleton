@@ -72,10 +72,12 @@ plugins: [
 ]
 ```
 
-## setup alpine.js in index.html or main.js
+## setup alpine.js in main.js
 
-```html
-<script src="alpine.min.js" defer></script>
+```javascript
+import Alpine from "alpinejs";
+window.Alpine = Alpine;
+Alpine.start();
 ```
 
 ## setup purgecss in tailwind.config.js
