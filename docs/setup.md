@@ -43,7 +43,7 @@ insert the following into head tag
 <link rel="stylesheet" href="/style.css" />
 ```
 
-insert the follow into div.app class tag
+insert the follow into div.app tag
 
 ```html
 <h1
