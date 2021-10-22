@@ -2,7 +2,7 @@
 
 ---
 
-# install
+## install
 
 ```bash
 npm init @vitejs/app
@@ -12,7 +12,7 @@ npm install tailwindcss@latest postcss@latest autoprefixer@latest --save-dev
 npx tailwindcss init -p
 ```
 
-# style.css
+## style.css
 
 remove generated css
 
@@ -22,11 +22,11 @@ remove generated css
 @tailwind utilities;
 ```
 
-# main.js
+## main.js
 
 remove vite generated code
 
-# index.html
+## index.html
 
 ```html
 <link rel="stylesheet" href="/style.css" />
@@ -39,13 +39,13 @@ remove vite generated code
 </h1>
 ```
 
-# plugins
+## plugins
 
 ```bash
 npm install @tailwindcss/forms @tailwindcss/aspect-ratio --save-dev
 ```
 
-# tailwind.config.js
+## tailwind.config.js
 
 ```javascript
 const colors = require('tailwindcss/colors')
@@ -63,13 +63,13 @@ require('@tailwindcss/aspect-ratio'),
 ]
 ```
 
-# alpine.js to index.html or main.js
+## alpine.js to index.html or main.js
 
 ```html
 <script src="alpine.min.js" defer></script>
 ```
 
-# purgecss to tailwind.config.js
+## purgecss to tailwind.config.js
 
 ```javascript
 purge: ["./index.html"];
