@@ -1,7 +1,7 @@
 {
   "name": "vite-tailwindcss-skeleton",
   "version": "1.0.0",
-  "description": "a skeleton project using vite with tailwindcss",
+  "description": "a skeleton project using vite with tailwindcss and alpinejs",
   "main": "index.js",
   "directories": {
     "doc": "docs"
