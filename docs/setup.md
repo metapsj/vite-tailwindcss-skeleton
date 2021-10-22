@@ -72,6 +72,12 @@ plugins: [
 ]
 ```
 
+## install alpinejs
+
+```bash
+npm install alpinejs --save-dev
+```
+
 ## configure alpine.js in main.js
 
 ```javascript
