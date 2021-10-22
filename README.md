@@ -2,14 +2,10 @@
 
 a skeleton project using vite with tailwindcss
 
----
-
 ## todo
 
 - one
 - two
-
----
 
 ## dependencies
 
@@ -18,5 +14,3 @@ a skeleton project using vite with tailwindcss
 - postcss
 - tailwindcss
 - alpinejs
-
----
