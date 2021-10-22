@@ -1,7 +1,5 @@
 # setup
 
----
-
 ## install
 
 ```bash
