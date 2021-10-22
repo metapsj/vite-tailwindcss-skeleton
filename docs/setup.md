@@ -21,7 +21,7 @@ npx tailwindcss init -p
 
 ## style.css
 
-remove generated css
+remove vite generated css
 
 add tailwind imports
 
