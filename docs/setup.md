@@ -37,13 +37,13 @@ remove vite generated code
 
 ## index.html
 
-insert the following into <head> section
+insert the following into head tag
 
 ```html
 <link rel="stylesheet" href="/style.css" />
 ```
 
-insert the follow into div.app
+insert the follow into div.app class tag
 
 ```html
 <h1
