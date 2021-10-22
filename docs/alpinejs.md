@@ -6,7 +6,7 @@
 npm install alpinejs --save-dev
 ```
 
-# main.js
+## main.js
 
 ```javascript
 import Alpine from "alpinejs";
