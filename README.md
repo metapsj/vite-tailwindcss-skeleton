@@ -4,11 +4,14 @@ a skeleton project using vite with tailwindcss
 
 ---
 
-# TODO:
+## todo
+
+- one
+- two
 
 ---
 
-# dependencies
+## dependencies
 
 - npm
 - vite
