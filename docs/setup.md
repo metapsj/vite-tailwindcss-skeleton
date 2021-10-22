@@ -49,15 +49,15 @@ npm install @tailwindcss/forms @tailwindcss/aspect-ratio --save-dev
 const colors = require('tailwindcss/colors')
 
 extend: {
-colors: {
-teal: colors.teal,
-cyan: colors.cyan,
-}
+  colors: {
+    teal: colors.teal,
+    cyan: colors.cyan,
+  }
 }
 
 plugins: [
-require('@tailwindcss/forms'),
-require('@tailwindcss/aspect-ratio'),
+  require('@tailwindcss/forms'),
+  require('@tailwindcss/aspect-ratio'),
 ]
 ```
 
