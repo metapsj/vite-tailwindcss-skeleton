@@ -2,4 +2,18 @@
 
 a skeleton project using vite with tailwindcss
 
-## TODO:
+---
+
+# TODO:
+
+---
+
+# dependencies
+
+- npm
+- vite
+- postcss
+- tailwindcss
+- alpinejs
+
+---
