@@ -1,18 +1,29 @@
 # setup
 
-## install
+## initialize project
 
 ```bash
 npm init @vitejs/app
+```
 
+## install libraries
+
+```bash
 npm install tailwindcss@latest postcss@latest autoprefixer@latest --save-dev
 
+```
+
+## initialize tailwindcss
+
+```bash
 npx tailwindcss init -p
 ```
 
 ## style.css
 
 remove generated css
+
+add tailwind imports
 
 ```css
 @tailwind base;
@@ -29,7 +40,7 @@ remove vite generated code
 ```html
 <link rel="stylesheet" href="/style.css" />
 
-<!-- inside div.app -->
+<!-- insert into div.app -->
 <h1
   class="text-3xl md:text-5xl text-gray-500 text-center font-semibold mx-auto"
 >
@@ -37,7 +48,7 @@ remove vite generated code
 </h1>
 ```
 
-## plugins
+## install plugins
 
 ```bash
 npm install @tailwindcss/forms @tailwindcss/aspect-ratio --save-dev
@@ -61,13 +72,13 @@ plugins: [
 ]
 ```
 
-## alpine.js to index.html or main.js
+## setup alpine.js in index.html or main.js
 
 ```html
 <script src="alpine.min.js" defer></script>
 ```
 
-## purgecss to tailwind.config.js
+## setup purgecss in tailwind.config.js
 
 ```javascript
 purge: ["./index.html"];
