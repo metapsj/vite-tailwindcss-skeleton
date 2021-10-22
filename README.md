@@ -1,6 +1,6 @@
 # vite-tailwindcss-skeleton
 
-a skeleton project using vite with tailwindcss
+a skeleton project using vite with tailwindcss and alpinejs
 
 ## todo
 
