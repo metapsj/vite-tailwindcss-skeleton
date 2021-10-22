@@ -9,7 +9,7 @@ npm init @vitejs/app
 ## install libraries
 
 ```bash
-npm install tailwindcss@latest postcss@latest autoprefixer@latest --save-dev
+npm install tailwindcss@latest postcss@latest autoprefixer@latest alpinejs --save-dev
 
 ```
 
@@ -70,12 +70,6 @@ plugins: [
   require('@tailwindcss/forms'),
   require('@tailwindcss/aspect-ratio'),
 ]
-```
-
-## install alpinejs
-
-```bash
-npm install alpinejs --save-dev
 ```
 
 ## configure alpine.js in main.js
