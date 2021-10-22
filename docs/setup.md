@@ -37,10 +37,15 @@ remove vite generated code
 
 ## index.html
 
+insert the following into <head> section
+
 ```html
 <link rel="stylesheet" href="/style.css" />
+```
 
-<!-- insert into div.app -->
+insert the follow into div.app
+
+```html
 <h1
   class="text-3xl md:text-5xl text-gray-500 text-center font-semibold mx-auto"
 >
