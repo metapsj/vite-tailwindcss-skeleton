@@ -54,7 +54,7 @@ remove vite generated code
 npm install @tailwindcss/forms @tailwindcss/aspect-ratio --save-dev
 ```
 
-## tailwind.config.js
+## configure plugins in tailwind.config.js
 
 ```javascript
 const colors = require('tailwindcss/colors')
@@ -72,7 +72,7 @@ plugins: [
 ]
 ```
 
-## setup alpine.js in main.js
+## configure alpine.js in main.js
 
 ```javascript
 import Alpine from "alpinejs";
@@ -80,7 +80,7 @@ window.Alpine = Alpine;
 Alpine.start();
 ```
 
-## setup purgecss in tailwind.config.js
+## configure purgecss in tailwind.config.js
 
 ```javascript
 purge: ["./index.html"];
